@@ -8,15 +8,15 @@ print("Your body mass index (BMI) is " + str(bmi))
 
 if bmi < 18.5:
     print("Your BMI classification is Underweight.")
-if bmi >= 18.5 and bmi <= 24.9:
+elif bmi >= 18.5 and bmi <= 24.9:
     print("Your BMI classification is Normal.")
-if bmi >= 25.0 and bmi <= 29.9:
+elif bmi >= 25.0 and bmi <= 29.9:
     print("Your BMI classification is Overweight.")
-if bmi >= 30.0 and bmi <= 34.9:
+elif bmi >= 30.0 and bmi <= 34.9:
     print("Your BMI classification is Obese, Class I.")
-if bmi >= 35.0 and bmi <= 39.9:
+elif bmi >= 35.0 and bmi <= 39.9:
     print("Your BMI classification is Obese, Class II.")
-if bmi >= 40:
+else:
     print("Your BMI falls under Extreme Obesity.")
 
 print("The BMI classifications above were retrieved from the National Heart, Lung, and Blood Institute.")
